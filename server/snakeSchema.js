@@ -20,7 +20,6 @@ export async function SaveLengthToDb(req, res) {
         return res.status(500).json("Ошибка: " + error)
     }
 }
-
 export async function getInfo(req, res) {
     try {
         console.log("посиупил запрос")
